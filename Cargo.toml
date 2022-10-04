@@ -1,0 +1,7 @@
+[package]
+edition = "2021"
+name = "glasses"
+version = "0.1.0"
+
+[dependencies]
+yew = {git = "https://github.com/yewstack/yew/", features = ["csr"]}

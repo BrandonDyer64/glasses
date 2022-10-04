@@ -1,0 +1,28 @@
+.parallel-bars {
+  position: relative;
+  width: 3in;
+  height: 3in;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  & > div {
+    flex: 1;
+    &:nth-child(2n) {
+      background-color: black;
+    }
+  }
+}
+
+.prescription {
+
+}
+
+.prescription-finder {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
